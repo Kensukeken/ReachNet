@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to bottom right, #ffffff, #5d1762a0, #341c55, rgb(240, 230, 227));
+    color: #333333;
+}
+
+/* Heading Styles */
+h1 {
+    color: #ebe4f3;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Navigation Styles */
+.nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #5c4c73;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 1rem;
+}
+
+li {
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c005f3;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 2rem 0;
+    padding: 0 2rem;
+    color: white;
+}
+
+/* Icon Styles */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 8rem;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+}
+
+/* Social Button Styles */
+.social-buttons-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.fa {
+    display: inline-block;
+    padding: 20px;
+    font-size: 2rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-youtube {
+    background: #ff0000;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+    background: #341c55;
+    color: #ffffff;
+}
+.PS{
+    display: flex;
+}
